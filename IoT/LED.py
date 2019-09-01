@@ -13,7 +13,6 @@ if count < 2:
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-
 if flag == "1":
     GPIO.setup(12,GPIO.OUT)
     GPIO.output(12,GPIO.HIGH)
